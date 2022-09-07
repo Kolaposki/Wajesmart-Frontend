@@ -90,21 +90,24 @@
   <Authors/>
 
   <Books/>
+  <BestSellingBook/>
   </div>
 </template>
 
 <script>
 import Authors from "@/components/Authors";
 import Books from "@/components/Books";
+import BestSellingBook from "@/components/BestSellingBook";
 
 export default {
   
   name: "App",
-  components: {Authors,Books},
+  components: {Authors,Books,BestSellingBook},
 };
 </script>
 
 <style>
+@import "assets/icomoon/icomoon.css";
 @import "assets/css/normalize.css";
 @import "assets/css/vendor.css";
 @import "assets/css/style.css";
