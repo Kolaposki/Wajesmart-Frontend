@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import NotFound404 from "../views/NotFound404.vue";
 import BookDetail from "../views/BookDetail.vue";
+import CreateBook from "../views/CreateBook.vue";
+import AllAuthors from "../views/AllAuthors.vue";
 
 const routes = [{
         path: "/",
@@ -20,6 +22,22 @@ const routes = [{
         component: BookDetail,
         meta: {
             title: "Book Details",
+        },
+    },
+    {
+        path: "/new-book/",
+        name: "CreateBook",
+        component: CreateBook,
+        meta: {
+            title: "Create Book",
+        },
+    },
+    {
+        path: "/authors/",
+        name: "Authors",
+        component: AllAuthors,
+        meta: {
+            title: "Authors",
         },
     },
     {
