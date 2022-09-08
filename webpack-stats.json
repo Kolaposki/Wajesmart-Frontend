@@ -820,15 +820,460 @@
       "name": "0c3084bfd707ce295543.hot-update.json",
       "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\0c3084bfd707ce295543.hot-update.json",
       "publicPath": "http://127.0.0.1:8080/0c3084bfd707ce295543.hot-update.json"
+    },
+    "6966ed87349b7780676a.hot-update.json": {
+      "name": "6966ed87349b7780676a.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\6966ed87349b7780676a.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/6966ed87349b7780676a.hot-update.json"
+    },
+    "25292d18dcdc067e15a0.hot-update.json": {
+      "name": "25292d18dcdc067e15a0.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\25292d18dcdc067e15a0.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/25292d18dcdc067e15a0.hot-update.json"
+    },
+    "app.1489d8b704f902adab5b.hot-update.js": {
+      "name": "app.1489d8b704f902adab5b.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.1489d8b704f902adab5b.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.1489d8b704f902adab5b.hot-update.js"
+    },
+    "1489d8b704f902adab5b.hot-update.json": {
+      "name": "1489d8b704f902adab5b.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\1489d8b704f902adab5b.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/1489d8b704f902adab5b.hot-update.json"
+    },
+    "app.36db260ccf0a69a11b9e.hot-update.js": {
+      "name": "app.36db260ccf0a69a11b9e.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.36db260ccf0a69a11b9e.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.36db260ccf0a69a11b9e.hot-update.js"
+    },
+    "36db260ccf0a69a11b9e.hot-update.json": {
+      "name": "36db260ccf0a69a11b9e.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\36db260ccf0a69a11b9e.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/36db260ccf0a69a11b9e.hot-update.json"
+    },
+    "app.2babe72301e01c33779e.hot-update.js": {
+      "name": "app.2babe72301e01c33779e.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.2babe72301e01c33779e.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.2babe72301e01c33779e.hot-update.js"
+    },
+    "2babe72301e01c33779e.hot-update.json": {
+      "name": "2babe72301e01c33779e.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\2babe72301e01c33779e.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/2babe72301e01c33779e.hot-update.json"
+    },
+    "app.281b0e25df372b14cd4f.hot-update.js": {
+      "name": "app.281b0e25df372b14cd4f.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.281b0e25df372b14cd4f.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.281b0e25df372b14cd4f.hot-update.js"
+    },
+    "281b0e25df372b14cd4f.hot-update.json": {
+      "name": "281b0e25df372b14cd4f.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\281b0e25df372b14cd4f.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/281b0e25df372b14cd4f.hot-update.json"
+    },
+    "app.f023d26cffec19b1aa16.hot-update.js": {
+      "name": "app.f023d26cffec19b1aa16.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.f023d26cffec19b1aa16.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.f023d26cffec19b1aa16.hot-update.js"
+    },
+    "f023d26cffec19b1aa16.hot-update.json": {
+      "name": "f023d26cffec19b1aa16.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\f023d26cffec19b1aa16.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/f023d26cffec19b1aa16.hot-update.json"
+    },
+    "app.4a1b98103f0c2a21ba78.hot-update.js": {
+      "name": "app.4a1b98103f0c2a21ba78.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.4a1b98103f0c2a21ba78.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.4a1b98103f0c2a21ba78.hot-update.js"
+    },
+    "4a1b98103f0c2a21ba78.hot-update.json": {
+      "name": "4a1b98103f0c2a21ba78.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\4a1b98103f0c2a21ba78.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/4a1b98103f0c2a21ba78.hot-update.json"
+    },
+    "app.08ecb39a1099e71f4437.hot-update.js": {
+      "name": "app.08ecb39a1099e71f4437.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.08ecb39a1099e71f4437.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.08ecb39a1099e71f4437.hot-update.js"
+    },
+    "08ecb39a1099e71f4437.hot-update.json": {
+      "name": "08ecb39a1099e71f4437.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\08ecb39a1099e71f4437.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/08ecb39a1099e71f4437.hot-update.json"
+    },
+    "app.c7a894c2e29405f8f626.hot-update.js": {
+      "name": "app.c7a894c2e29405f8f626.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.c7a894c2e29405f8f626.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.c7a894c2e29405f8f626.hot-update.js"
+    },
+    "c7a894c2e29405f8f626.hot-update.json": {
+      "name": "c7a894c2e29405f8f626.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\c7a894c2e29405f8f626.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/c7a894c2e29405f8f626.hot-update.json"
+    },
+    "app.c7244e71da91f73bd4ca.hot-update.js": {
+      "name": "app.c7244e71da91f73bd4ca.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.c7244e71da91f73bd4ca.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.c7244e71da91f73bd4ca.hot-update.js"
+    },
+    "c7244e71da91f73bd4ca.hot-update.json": {
+      "name": "c7244e71da91f73bd4ca.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\c7244e71da91f73bd4ca.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/c7244e71da91f73bd4ca.hot-update.json"
+    },
+    "app.82a1e1400ba6af60fb89.hot-update.js": {
+      "name": "app.82a1e1400ba6af60fb89.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.82a1e1400ba6af60fb89.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.82a1e1400ba6af60fb89.hot-update.js"
+    },
+    "82a1e1400ba6af60fb89.hot-update.json": {
+      "name": "82a1e1400ba6af60fb89.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\82a1e1400ba6af60fb89.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/82a1e1400ba6af60fb89.hot-update.json"
+    },
+    "app.0b1231a97ae7c07e6bcb.hot-update.js": {
+      "name": "app.0b1231a97ae7c07e6bcb.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.0b1231a97ae7c07e6bcb.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.0b1231a97ae7c07e6bcb.hot-update.js"
+    },
+    "0b1231a97ae7c07e6bcb.hot-update.json": {
+      "name": "0b1231a97ae7c07e6bcb.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\0b1231a97ae7c07e6bcb.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/0b1231a97ae7c07e6bcb.hot-update.json"
+    },
+    "app.ed1e03910fa67a9cad5e.hot-update.js": {
+      "name": "app.ed1e03910fa67a9cad5e.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.ed1e03910fa67a9cad5e.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.ed1e03910fa67a9cad5e.hot-update.js"
+    },
+    "ed1e03910fa67a9cad5e.hot-update.json": {
+      "name": "ed1e03910fa67a9cad5e.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\ed1e03910fa67a9cad5e.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/ed1e03910fa67a9cad5e.hot-update.json"
+    },
+    "app.9ce845c7a6d10683e895.hot-update.js": {
+      "name": "app.9ce845c7a6d10683e895.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.9ce845c7a6d10683e895.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.9ce845c7a6d10683e895.hot-update.js"
+    },
+    "9ce845c7a6d10683e895.hot-update.json": {
+      "name": "9ce845c7a6d10683e895.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\9ce845c7a6d10683e895.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/9ce845c7a6d10683e895.hot-update.json"
+    },
+    "app.5d5c9118f30b1c1474a1.hot-update.js": {
+      "name": "app.5d5c9118f30b1c1474a1.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.5d5c9118f30b1c1474a1.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.5d5c9118f30b1c1474a1.hot-update.js"
+    },
+    "5d5c9118f30b1c1474a1.hot-update.json": {
+      "name": "5d5c9118f30b1c1474a1.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\5d5c9118f30b1c1474a1.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/5d5c9118f30b1c1474a1.hot-update.json"
+    },
+    "app.4d1a14d4127e374c4ab5.hot-update.js": {
+      "name": "app.4d1a14d4127e374c4ab5.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.4d1a14d4127e374c4ab5.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.4d1a14d4127e374c4ab5.hot-update.js"
+    },
+    "4d1a14d4127e374c4ab5.hot-update.json": {
+      "name": "4d1a14d4127e374c4ab5.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\4d1a14d4127e374c4ab5.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/4d1a14d4127e374c4ab5.hot-update.json"
+    },
+    "app.fc86ed2ebfce4e9ce65f.hot-update.js": {
+      "name": "app.fc86ed2ebfce4e9ce65f.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.fc86ed2ebfce4e9ce65f.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.fc86ed2ebfce4e9ce65f.hot-update.js"
+    },
+    "fc86ed2ebfce4e9ce65f.hot-update.json": {
+      "name": "fc86ed2ebfce4e9ce65f.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\fc86ed2ebfce4e9ce65f.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/fc86ed2ebfce4e9ce65f.hot-update.json"
+    },
+    "app.79758c1b71873e5f5ce6.hot-update.js": {
+      "name": "app.79758c1b71873e5f5ce6.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.79758c1b71873e5f5ce6.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.79758c1b71873e5f5ce6.hot-update.js"
+    },
+    "79758c1b71873e5f5ce6.hot-update.json": {
+      "name": "79758c1b71873e5f5ce6.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\79758c1b71873e5f5ce6.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/79758c1b71873e5f5ce6.hot-update.json"
+    },
+    "app.0eba8cc60556d29d9c7f.hot-update.js": {
+      "name": "app.0eba8cc60556d29d9c7f.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.0eba8cc60556d29d9c7f.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.0eba8cc60556d29d9c7f.hot-update.js"
+    },
+    "0eba8cc60556d29d9c7f.hot-update.json": {
+      "name": "0eba8cc60556d29d9c7f.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\0eba8cc60556d29d9c7f.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/0eba8cc60556d29d9c7f.hot-update.json"
+    },
+    "app.4ec323c673b5517db6df.hot-update.js": {
+      "name": "app.4ec323c673b5517db6df.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.4ec323c673b5517db6df.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.4ec323c673b5517db6df.hot-update.js"
+    },
+    "4ec323c673b5517db6df.hot-update.json": {
+      "name": "4ec323c673b5517db6df.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\4ec323c673b5517db6df.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/4ec323c673b5517db6df.hot-update.json"
+    },
+    "app.dafde48ec8647fd05107.hot-update.js": {
+      "name": "app.dafde48ec8647fd05107.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.dafde48ec8647fd05107.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.dafde48ec8647fd05107.hot-update.js"
+    },
+    "dafde48ec8647fd05107.hot-update.json": {
+      "name": "dafde48ec8647fd05107.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\dafde48ec8647fd05107.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/dafde48ec8647fd05107.hot-update.json"
+    },
+    "app.871ff4add2c68edcacaf.hot-update.js": {
+      "name": "app.871ff4add2c68edcacaf.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.871ff4add2c68edcacaf.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.871ff4add2c68edcacaf.hot-update.js"
+    },
+    "871ff4add2c68edcacaf.hot-update.json": {
+      "name": "871ff4add2c68edcacaf.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\871ff4add2c68edcacaf.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/871ff4add2c68edcacaf.hot-update.json"
+    },
+    "app.e1af69b7ecd427c936b7.hot-update.js": {
+      "name": "app.e1af69b7ecd427c936b7.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.e1af69b7ecd427c936b7.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.e1af69b7ecd427c936b7.hot-update.js"
+    },
+    "e1af69b7ecd427c936b7.hot-update.json": {
+      "name": "e1af69b7ecd427c936b7.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\e1af69b7ecd427c936b7.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/e1af69b7ecd427c936b7.hot-update.json"
+    },
+    "02993639bf9b89039bb8.hot-update.json": {
+      "name": "02993639bf9b89039bb8.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\02993639bf9b89039bb8.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/02993639bf9b89039bb8.hot-update.json"
+    },
+    "10f1471a91bed0fcb046.hot-update.json": {
+      "name": "10f1471a91bed0fcb046.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\10f1471a91bed0fcb046.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/10f1471a91bed0fcb046.hot-update.json"
+    },
+    "app.7825b3835b3a2f89cb5d.hot-update.js": {
+      "name": "app.7825b3835b3a2f89cb5d.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.7825b3835b3a2f89cb5d.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.7825b3835b3a2f89cb5d.hot-update.js"
+    },
+    "7825b3835b3a2f89cb5d.hot-update.json": {
+      "name": "7825b3835b3a2f89cb5d.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\7825b3835b3a2f89cb5d.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/7825b3835b3a2f89cb5d.hot-update.json"
+    },
+    "app.24fd5ae3e51f6ac549d8.hot-update.js": {
+      "name": "app.24fd5ae3e51f6ac549d8.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.24fd5ae3e51f6ac549d8.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.24fd5ae3e51f6ac549d8.hot-update.js"
+    },
+    "24fd5ae3e51f6ac549d8.hot-update.json": {
+      "name": "24fd5ae3e51f6ac549d8.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\24fd5ae3e51f6ac549d8.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/24fd5ae3e51f6ac549d8.hot-update.json"
+    },
+    "app.34563534f08304989eff.hot-update.js": {
+      "name": "app.34563534f08304989eff.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.34563534f08304989eff.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.34563534f08304989eff.hot-update.js"
+    },
+    "34563534f08304989eff.hot-update.json": {
+      "name": "34563534f08304989eff.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\34563534f08304989eff.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/34563534f08304989eff.hot-update.json"
+    },
+    "app.b0e345fb87a69e8f2a6d.hot-update.js": {
+      "name": "app.b0e345fb87a69e8f2a6d.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.b0e345fb87a69e8f2a6d.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.b0e345fb87a69e8f2a6d.hot-update.js"
+    },
+    "b0e345fb87a69e8f2a6d.hot-update.json": {
+      "name": "b0e345fb87a69e8f2a6d.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\b0e345fb87a69e8f2a6d.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/b0e345fb87a69e8f2a6d.hot-update.json"
+    },
+    "app.1924b7a91a3cf28ce0d6.hot-update.js": {
+      "name": "app.1924b7a91a3cf28ce0d6.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.1924b7a91a3cf28ce0d6.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.1924b7a91a3cf28ce0d6.hot-update.js"
+    },
+    "1924b7a91a3cf28ce0d6.hot-update.json": {
+      "name": "1924b7a91a3cf28ce0d6.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\1924b7a91a3cf28ce0d6.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/1924b7a91a3cf28ce0d6.hot-update.json"
+    },
+    "92d3aa763486295bb592.hot-update.json": {
+      "name": "92d3aa763486295bb592.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\92d3aa763486295bb592.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/92d3aa763486295bb592.hot-update.json"
+    },
+    "ed4825cb975a7db4a16a.hot-update.json": {
+      "name": "ed4825cb975a7db4a16a.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\ed4825cb975a7db4a16a.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/ed4825cb975a7db4a16a.hot-update.json"
+    },
+    "app.dbf8c7c4a0843669431b.hot-update.js": {
+      "name": "app.dbf8c7c4a0843669431b.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.dbf8c7c4a0843669431b.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.dbf8c7c4a0843669431b.hot-update.js"
+    },
+    "dbf8c7c4a0843669431b.hot-update.json": {
+      "name": "dbf8c7c4a0843669431b.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\dbf8c7c4a0843669431b.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/dbf8c7c4a0843669431b.hot-update.json"
+    },
+    "app.be31fb1243513db3392a.hot-update.js": {
+      "name": "app.be31fb1243513db3392a.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.be31fb1243513db3392a.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.be31fb1243513db3392a.hot-update.js"
+    },
+    "be31fb1243513db3392a.hot-update.json": {
+      "name": "be31fb1243513db3392a.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\be31fb1243513db3392a.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/be31fb1243513db3392a.hot-update.json"
+    },
+    "94fcf57c7eff04c3a645.hot-update.json": {
+      "name": "94fcf57c7eff04c3a645.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\94fcf57c7eff04c3a645.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/94fcf57c7eff04c3a645.hot-update.json"
+    },
+    "app.fad151bad2a385357e91.hot-update.js": {
+      "name": "app.fad151bad2a385357e91.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.fad151bad2a385357e91.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.fad151bad2a385357e91.hot-update.js"
+    },
+    "fad151bad2a385357e91.hot-update.json": {
+      "name": "fad151bad2a385357e91.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\fad151bad2a385357e91.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/fad151bad2a385357e91.hot-update.json"
+    },
+    "app.eb4bdcbdeac497ea7c1d.hot-update.js": {
+      "name": "app.eb4bdcbdeac497ea7c1d.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.eb4bdcbdeac497ea7c1d.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.eb4bdcbdeac497ea7c1d.hot-update.js"
+    },
+    "eb4bdcbdeac497ea7c1d.hot-update.json": {
+      "name": "eb4bdcbdeac497ea7c1d.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\eb4bdcbdeac497ea7c1d.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/eb4bdcbdeac497ea7c1d.hot-update.json"
+    },
+    "app.84f88f0e00dc50634fd9.hot-update.js": {
+      "name": "app.84f88f0e00dc50634fd9.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.84f88f0e00dc50634fd9.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.84f88f0e00dc50634fd9.hot-update.js"
+    },
+    "84f88f0e00dc50634fd9.hot-update.json": {
+      "name": "84f88f0e00dc50634fd9.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\84f88f0e00dc50634fd9.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/84f88f0e00dc50634fd9.hot-update.json"
+    },
+    "app.55d605176295a1380210.hot-update.js": {
+      "name": "app.55d605176295a1380210.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.55d605176295a1380210.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.55d605176295a1380210.hot-update.js"
+    },
+    "55d605176295a1380210.hot-update.json": {
+      "name": "55d605176295a1380210.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\55d605176295a1380210.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/55d605176295a1380210.hot-update.json"
+    },
+    "app.98f46d90a72935cf81f7.hot-update.js": {
+      "name": "app.98f46d90a72935cf81f7.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.98f46d90a72935cf81f7.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.98f46d90a72935cf81f7.hot-update.js"
+    },
+    "98f46d90a72935cf81f7.hot-update.json": {
+      "name": "98f46d90a72935cf81f7.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\98f46d90a72935cf81f7.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/98f46d90a72935cf81f7.hot-update.json"
+    },
+    "app.3c19cb03145c0e1bcb0f.hot-update.js": {
+      "name": "app.3c19cb03145c0e1bcb0f.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.3c19cb03145c0e1bcb0f.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.3c19cb03145c0e1bcb0f.hot-update.js"
+    },
+    "3c19cb03145c0e1bcb0f.hot-update.json": {
+      "name": "3c19cb03145c0e1bcb0f.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\3c19cb03145c0e1bcb0f.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/3c19cb03145c0e1bcb0f.hot-update.json"
+    },
+    "app.91a1795f044926bdd03e.hot-update.js": {
+      "name": "app.91a1795f044926bdd03e.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.91a1795f044926bdd03e.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.91a1795f044926bdd03e.hot-update.js"
+    },
+    "91a1795f044926bdd03e.hot-update.json": {
+      "name": "91a1795f044926bdd03e.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\91a1795f044926bdd03e.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/91a1795f044926bdd03e.hot-update.json"
+    },
+    "app.36c7ea1225731316ed6c.hot-update.js": {
+      "name": "app.36c7ea1225731316ed6c.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.36c7ea1225731316ed6c.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.36c7ea1225731316ed6c.hot-update.js"
+    },
+    "36c7ea1225731316ed6c.hot-update.json": {
+      "name": "36c7ea1225731316ed6c.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\36c7ea1225731316ed6c.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/36c7ea1225731316ed6c.hot-update.json"
+    },
+    "app.6aa1c5793bfe0d09b8a0.hot-update.js": {
+      "name": "app.6aa1c5793bfe0d09b8a0.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.6aa1c5793bfe0d09b8a0.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.6aa1c5793bfe0d09b8a0.hot-update.js"
+    },
+    "6aa1c5793bfe0d09b8a0.hot-update.json": {
+      "name": "6aa1c5793bfe0d09b8a0.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\6aa1c5793bfe0d09b8a0.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/6aa1c5793bfe0d09b8a0.hot-update.json"
+    },
+    "app.f862b2ddbceff1331e42.hot-update.js": {
+      "name": "app.f862b2ddbceff1331e42.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.f862b2ddbceff1331e42.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.f862b2ddbceff1331e42.hot-update.js"
+    },
+    "f862b2ddbceff1331e42.hot-update.json": {
+      "name": "f862b2ddbceff1331e42.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\f862b2ddbceff1331e42.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/f862b2ddbceff1331e42.hot-update.json"
+    },
+    "app.0f0488fe0f1b2acfde12.hot-update.js": {
+      "name": "app.0f0488fe0f1b2acfde12.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.0f0488fe0f1b2acfde12.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.0f0488fe0f1b2acfde12.hot-update.js"
+    },
+    "0f0488fe0f1b2acfde12.hot-update.json": {
+      "name": "0f0488fe0f1b2acfde12.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\0f0488fe0f1b2acfde12.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/0f0488fe0f1b2acfde12.hot-update.json"
+    },
+    "app.a82ef9b66536d0cd755c.hot-update.js": {
+      "name": "app.a82ef9b66536d0cd755c.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.a82ef9b66536d0cd755c.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.a82ef9b66536d0cd755c.hot-update.js"
+    },
+    "a82ef9b66536d0cd755c.hot-update.json": {
+      "name": "a82ef9b66536d0cd755c.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\a82ef9b66536d0cd755c.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/a82ef9b66536d0cd755c.hot-update.json"
     }
   },
   "chunks": {
     "app": [
       "bundle.js",
-      "app.0c3084bfd707ce295543.hot-update.js"
+      "app.a82ef9b66536d0cd755c.hot-update.js"
     ]
   },
   "publicPath": "http://127.0.0.1:8080/",
   "error": "ModuleError",
-  "message": "Module Error (from ./node_modules/eslint-loader/index.js):\n\nC:\\Users\\HP\\Desktop\\wajesmart-frontend\\src\\App.vue\n  106:8  error  'Footer' is defined but never used  no-unused-vars\n\n✖ 1 problem (1 error, 0 warnings)\n"
+  "message": "Module Error (from ./node_modules/eslint-loader/index.js):\n\nC:\\Users\\HP\\Desktop\\wajesmart-frontend\\src\\components\\Books.vue\n  22:49  error  Parsing error: Unexpected end of expression  vue/no-parsing-error\n\n✖ 1 problem (1 error, 0 warnings)\n"
 }

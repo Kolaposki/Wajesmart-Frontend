@@ -91,7 +91,7 @@
 
     <Authors />
 
-    <Books />
+    <Books :books=recentBooks />
     <BestSellingBook />
     <Quote />
     <Footer />
@@ -104,10 +104,41 @@ import Books from "@/components/Books";
 import BestSellingBook from "@/components/BestSellingBook";
 import Quote from "@/components/Quote";
 import Footer from "@/components/Footer";
+import { apiService } from "@/common/api.service.js";
 
 export default {
   name: "App",
-  components: { Authors, Books, BestSellingBook,Quote,Footer },
+  components: { Authors, Books, BestSellingBook, Quote, Footer },
+  data() {
+    return {
+      recentBooks: [],
+    };
+  },
+  mounted() {},
+  created() {},
+  beforeCreate() {
+    try {
+      let url = "http://127.0.0.1:8000/api/books/?recent=true";
+      apiService(url).then((data) => {
+        if (data == null) {
+          console.log("data is nul. No fetching of bookmarsk");
+          return;
+        }
+        this.recentBooks = data.books
+        console.log("fetchBooks data: ", data);
+      });
+    } catch (err) {
+      if (err.response) {
+        // client received an error response (5xx, 4xx)
+        console.log("Server Error:", err);
+      } else if (err.request) {
+        // client never received a response, or request never left
+        console.log("Network Error:", err);
+      } else {
+        console.log("Client Error:", err);
+      }
+    }
+  },
 };
 </script>
 
