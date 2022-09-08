@@ -780,15 +780,55 @@
       "name": "8adc665a9dd30b20d7b8.hot-update.json",
       "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\8adc665a9dd30b20d7b8.hot-update.json",
       "publicPath": "http://127.0.0.1:8080/8adc665a9dd30b20d7b8.hot-update.json"
+    },
+    "app.ff6a5b6c23e872981115.hot-update.js": {
+      "name": "app.ff6a5b6c23e872981115.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.ff6a5b6c23e872981115.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.ff6a5b6c23e872981115.hot-update.js"
+    },
+    "ff6a5b6c23e872981115.hot-update.json": {
+      "name": "ff6a5b6c23e872981115.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\ff6a5b6c23e872981115.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/ff6a5b6c23e872981115.hot-update.json"
+    },
+    "app.406ed7cf5870c63bf397.hot-update.js": {
+      "name": "app.406ed7cf5870c63bf397.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.406ed7cf5870c63bf397.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.406ed7cf5870c63bf397.hot-update.js"
+    },
+    "406ed7cf5870c63bf397.hot-update.json": {
+      "name": "406ed7cf5870c63bf397.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\406ed7cf5870c63bf397.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/406ed7cf5870c63bf397.hot-update.json"
+    },
+    "app.ea52e672e2da658b8f1c.hot-update.js": {
+      "name": "app.ea52e672e2da658b8f1c.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.ea52e672e2da658b8f1c.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.ea52e672e2da658b8f1c.hot-update.js"
+    },
+    "ea52e672e2da658b8f1c.hot-update.json": {
+      "name": "ea52e672e2da658b8f1c.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\ea52e672e2da658b8f1c.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/ea52e672e2da658b8f1c.hot-update.json"
+    },
+    "app.0c3084bfd707ce295543.hot-update.js": {
+      "name": "app.0c3084bfd707ce295543.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.0c3084bfd707ce295543.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.0c3084bfd707ce295543.hot-update.js"
+    },
+    "0c3084bfd707ce295543.hot-update.json": {
+      "name": "0c3084bfd707ce295543.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\0c3084bfd707ce295543.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/0c3084bfd707ce295543.hot-update.json"
     }
   },
   "chunks": {
     "app": [
       "bundle.js",
-      "app.8adc665a9dd30b20d7b8.hot-update.js"
+      "app.0c3084bfd707ce295543.hot-update.js"
     ]
   },
   "publicPath": "http://127.0.0.1:8080/",
   "error": "ModuleError",
-  "message": "Module Error (from ./node_modules/eslint-loader/index.js):\n\nC:\\Users\\HP\\Desktop\\wajesmart-frontend\\src\\App.vue\n  104:8  error  'Quote' is defined but never used  no-unused-vars\n\n✖ 1 problem (1 error, 0 warnings)\n"
+  "message": "Module Error (from ./node_modules/eslint-loader/index.js):\n\nC:\\Users\\HP\\Desktop\\wajesmart-frontend\\src\\App.vue\n  106:8  error  'Footer' is defined but never used  no-unused-vars\n\n✖ 1 problem (1 error, 0 warnings)\n"
 }

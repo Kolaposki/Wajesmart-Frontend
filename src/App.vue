@@ -94,6 +94,7 @@
     <Books />
     <BestSellingBook />
     <Quote />
+    <Footer />
   </div>
 </template>
 
@@ -102,10 +103,11 @@ import Authors from "@/components/Authors";
 import Books from "@/components/Books";
 import BestSellingBook from "@/components/BestSellingBook";
 import Quote from "@/components/Quote";
+import Footer from "@/components/Footer";
 
 export default {
   name: "App",
-  components: { Authors, Books, BestSellingBook,Quote },
+  components: { Authors, Books, BestSellingBook,Quote,Footer },
 };
 </script>
 
