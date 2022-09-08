@@ -27,8 +27,7 @@
       </div>
     </section>
 
-    <Authors />
-
+    <Authors :authors="recentAuthors" />
     <Books :books="recentBooks" />
     <BestSellingBook />
     <Quote />
@@ -48,31 +47,64 @@ export default {
   data() {
     return {
       recentBooks: [],
+      recentAuthors: [],
     };
   },
-  beforeCreate() {
-    try {
-      let url = "http://127.0.0.1:8000/api/books/?recent=true";
-      apiService(url).then((data) => {
-        if (data == null) {
-          console.log("data is nul. No fetching of bookmarsk");
-          return;
+  methods: {
+    getAuthors() {
+      try {
+        // get recent 3 authors
+        let url = "http://127.0.0.1:8000/api/authors/?recent=true";
+        apiService(url).then((data) => {
+          if (data == null) {
+            return;
+          }
+          this.recentAuthors = data.authors;
+          console.log("fetchAuthors data: ", data);
+        });
+      } catch (err) {
+        if (err.response) {
+          // client received an error response (5xx, 4xx)
+          console.log("Server Error:", err);
+        } else if (err.request) {
+          // client never received a response, or request never left
+          console.log("Network Error:", err);
+        } else {
+          console.log("Client Error:", err);
         }
-        this.recentBooks = data.books;
-        console.log("fetchBooks data: ", data);
-      });
-    } catch (err) {
-      if (err.response) {
-        // client received an error response (5xx, 4xx)
-        console.log("Server Error:", err);
-      } else if (err.request) {
-        // client never received a response, or request never left
-        console.log("Network Error:", err);
-      } else {
-        console.log("Client Error:", err);
       }
-    }
+    },
+    getBooks() {
+      try {
+        // get recent 5 books
+        let url = "http://127.0.0.1:8000/api/books/?recent=true";
+        apiService(url).then((data) => {
+          if (data == null) {
+            return;
+          }
+          this.recentBooks = data.books;
+          console.log("fetchBooks data: ", data);
+        });
+      } catch (err) {
+        if (err.response) {
+          // client received an error response (5xx, 4xx)
+          console.log("Server Error:", err);
+        } else if (err.request) {
+          // client never received a response, or request never left
+          console.log("Network Error:", err);
+        } else {
+          console.log("Client Error:", err);
+        }
+      }
+    },
   },
+  beforeCreate() {
+    
+  },
+  async created() {
+    this.getBooks() 
+    this.getAuthors() 
+  }
 };
 </script>
 
