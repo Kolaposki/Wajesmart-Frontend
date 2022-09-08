@@ -25,12 +25,27 @@
       <div class="form-field col-lg-12">
         <label class="label mb-5" for="bookAuthor">Author's Name</label>
 
-        <select class="custom-select mt-3" name="bookAuthor" id="bookAuthor" v-model="bookAuthor">
-          <option :value="author.id" v-for="author in allAuthors" :key="author.id">{{author.full_name}}</option>       
+        <select
+          class="custom-select mt-3"
+          name="bookAuthor"
+          id="bookAuthor"
+          v-model="bookAuthor"
+        >
+          <option
+            :value="author.id"
+            v-for="author in allAuthors"
+            :key="author.id"
+          >
+            {{ author.full_name }}
+          </option>
         </select>
         <a href="#" class="mt-3">Create Author</a>
       </div>
       <div class="form-field col-lg-12">
+        <p style="color: red" v-show="duplicate">
+          This book already esists with another author.
+        </p>
+
         <input
           class="submit-btn"
           type="button"
@@ -52,6 +67,7 @@ export default {
       bookName: "",
       bookIsbn: "",
       bookAuthor: "",
+      duplicate: false,
       allAuthors: null,
     };
   },
@@ -62,7 +78,7 @@ export default {
       // check empty string
       if (
         this.bookName.replace(/^\s+|\s+$/gm, "").length < 1 ||
-        this.bookIsbn.replace(/^\s+|\s+$/gm, "").length < 1 
+        this.bookIsbn.replace(/^\s+|\s+$/gm, "").length < 1
       ) {
         console.log("Please fill in the name");
         return;
@@ -84,35 +100,33 @@ export default {
         .then((data) => {
           console.log("data: ", data);
 
-            if (data.status === "success") {
-              // toast.success("Created new folder!");
-              this.$router.push({
-                name: "BookDetail",
-                params: { book_id: data.result.id },
-              }); // push to FolderDetail page
-            } else {
-              console.log("Status is error => ", data.result);
-              // toast.error("An error occured!");
+          if (data.status === "success") {
+            // toast.success("Created new folder!");
+            this.$router.push({
+              name: "BookDetail",
+              params: { book_id: data.result.id },
+            }); // push to FolderDetail page
+          } else {
+            if (data.result === "Duplicate Book") {
+              this.duplicate = true;
             }
+            console.log("Status is error => ", data.result);
+            // toast.error("An error occured!");
+          }
         })
         .catch((error) => {
           console.log(error);
         });
-
-      // reset values
-    //   this.bookName = "";
-    //   this.bookIsbn = "";
-    //   this.bookAuthor = "";
     },
   },
 
   async created() {
-    let endpoint = "http://127.0.0.1:8000/api/authors/"
+    let endpoint = "http://127.0.0.1:8000/api/authors/";
 
     apiService(endpoint)
       .then((data) => {
         console.log("book detial data: ", data);
-        this.allAuthors = data.authors
+        this.allAuthors = data.authors;
       })
       .catch((error) => {
         console.log(error);

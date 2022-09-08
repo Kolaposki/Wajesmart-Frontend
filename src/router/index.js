@@ -4,6 +4,7 @@ import NotFound404 from "../views/NotFound404.vue";
 import BookDetail from "../views/BookDetail.vue";
 import CreateBook from "../views/CreateBook.vue";
 import AllAuthors from "../views/AllAuthors.vue";
+import UpdateBook from "../views/UpdateBook.vue";
 
 const routes = [{
         path: "/",
@@ -20,6 +21,14 @@ const routes = [{
         path: "/book/:book_id",
         name: "BookDetail",
         component: BookDetail,
+        meta: {
+            title: "Book Details",
+        },
+    },
+    {
+        path: "/update-book/:book_id",
+        name: "UpdateBook",
+        component: UpdateBook,
         meta: {
             title: "Book Details",
         },

@@ -27,9 +27,11 @@
                   <div class="item-price">$ 45.00</div>
 
                   <div class="btn-wrap">
-                    <a href="#" class="btn-accent-arrow"
-                      >Edit Book <i class="icon icon-ns-arrow-right"></i
-                    ></a>
+                     <router-link class="btn-accent-arrow"
+                      :to="{ name: 'UpdateBook', params: { book_id: this.$route.params.book_id} }"
+                      > Edit Book <i class="icon icon-ns-arrow-right"></i>
+                      </router-link>
+
                   </div>
                 </div>
                 <!--description-->
