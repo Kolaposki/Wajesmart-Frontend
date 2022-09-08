@@ -26,13 +26,11 @@ const router = createRouter({
     routes,
 });
 
-// ensures some page are not accessed without being authenticated
-router.beforeEach((to, from, next) => {
-    // check the route before entering and check if it contains the 'requiresLogin' in its meta
-    if (!to.matched.length) {
-        next("/notFound");
-        return
-    }
-});
+// router.beforeEach((to, from, next) => {
+//     // if (!to.matched.length) {
+//     //     next("/notFound");
+//     //     return
+//     // }
+// });
 
 export default router;
