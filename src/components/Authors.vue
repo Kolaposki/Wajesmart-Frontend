@@ -11,9 +11,13 @@
                 <div class="col-md-6 col-lg-4 item"  v-for="author of authors" :key="author.id">
                     <div class="box">
                       <img class="rounded-circle" src="https://epicbootstrap.com/freebies/snippets/team-cards/assets/img/1.jpg">
-                        <h3 class="name">{{author.full_name}}</h3>
+                        <h3 class="name">
+                  <router-link
+                      :to="{ name: 'UpdateAuthor', params: { author_id: author.id } }"
+                      >{{ author.full_name }}</router-link
+                    >
+                        </h3>
                         <p class="title">Author</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                         <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                     </div>
                 </div>

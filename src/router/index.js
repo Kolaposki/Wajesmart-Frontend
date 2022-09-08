@@ -4,6 +4,7 @@ import NotFound404 from "../views/NotFound404.vue";
 import BookDetail from "../views/BookDetail.vue";
 import CreateBook from "../views/CreateBook.vue";
 import CreateAuthor from "../views/CreateAuthor.vue";
+import UpdateAuthor from "../views/UpdateAuthor.vue";
 import AllAuthors from "../views/AllAuthors.vue";
 import UpdateBook from "../views/UpdateBook.vue";
 
@@ -32,6 +33,14 @@ const routes = [{
         component: UpdateBook,
         meta: {
             title: "Book Details",
+        },
+    },
+    {
+        path: "/update-author/:author_id",
+        name: "UpdateAuthor",
+        component: UpdateAuthor,
+        meta: {
+            title: "Author Details",
         },
     },
     {
