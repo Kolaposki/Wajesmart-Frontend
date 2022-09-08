@@ -31,6 +31,7 @@
                     >
                   </h3>
                   <p>{{ book.author.full_name }}</p>
+                  <div class="item-price">ISBN: {{ book.isbn }}</div>
                   <div class="item-price">$ 40.00</div>
                 </figcaption>
               </figure>

@@ -16,7 +16,9 @@
                                     <div class="author-name">By {{currentBook.author.full_name}}</div>
                                     <h3 class="item-title">{{currentBook.name}}</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac.</p>
+                  <div class="item-price">ISBN: {{ currentBook.isbn }}</div>
                                     <div class="item-price">$ 45.00</div>
+
                                     <div class="btn-wrap">
                                         <a href="#" class="btn-accent-arrow">shop it now <i class="icon icon-ns-arrow-right"></i></a>
                                     </div>
@@ -47,8 +49,6 @@ data() {
 },
 
   async created() {
-    // TODO: fetch for pagination
-
     let endpoint = "http://127.0.0.1:8000/api/book/" + this.$route.params.book_id;
 
     apiService(endpoint)
