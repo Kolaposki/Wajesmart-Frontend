@@ -41,7 +41,7 @@ function apiService(endpoint, method, data, content_type) {
         headers: {
             "content-type": content_type || "application/json",
             "X-CSRFTOKEN": CSRF_TOKEN,
-            "Access-Control-Allow-Origin": "http://127.0.0.1:8000",
+            // "Access-Control-Allow-Origin": "https://wajesmart-api.herokuapp.com/",
         },
     };
 

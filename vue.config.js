@@ -29,7 +29,7 @@ module.exports = {
             .watchOptions({ poll: 1000 })
             .https(false)
             .disableHostCheck(true)
-            .headers({ "Access-Control-Allow-Origin": ["\*"] })
+            // .headers({ "Access-Control-Allow-Origin": ["\*"] })
 
     },
 

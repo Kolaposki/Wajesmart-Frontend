@@ -6200,12 +6200,42 @@
       "name": "b75b0effed490d101d8a.hot-update.json",
       "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\b75b0effed490d101d8a.hot-update.json",
       "publicPath": "http://127.0.0.1:8080/b75b0effed490d101d8a.hot-update.json"
+    },
+    "app.9cc3020ea75fbf45cc6d.hot-update.js": {
+      "name": "app.9cc3020ea75fbf45cc6d.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.9cc3020ea75fbf45cc6d.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.9cc3020ea75fbf45cc6d.hot-update.js"
+    },
+    "9cc3020ea75fbf45cc6d.hot-update.json": {
+      "name": "9cc3020ea75fbf45cc6d.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\9cc3020ea75fbf45cc6d.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/9cc3020ea75fbf45cc6d.hot-update.json"
+    },
+    "app.17b485d4bad97d75a794.hot-update.js": {
+      "name": "app.17b485d4bad97d75a794.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.17b485d4bad97d75a794.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.17b485d4bad97d75a794.hot-update.js"
+    },
+    "17b485d4bad97d75a794.hot-update.json": {
+      "name": "17b485d4bad97d75a794.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\17b485d4bad97d75a794.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/17b485d4bad97d75a794.hot-update.json"
+    },
+    "app.af0b43bf39d7bddfa7ca.hot-update.js": {
+      "name": "app.af0b43bf39d7bddfa7ca.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.af0b43bf39d7bddfa7ca.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.af0b43bf39d7bddfa7ca.hot-update.js"
+    },
+    "af0b43bf39d7bddfa7ca.hot-update.json": {
+      "name": "af0b43bf39d7bddfa7ca.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\af0b43bf39d7bddfa7ca.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/af0b43bf39d7bddfa7ca.hot-update.json"
     }
   },
   "chunks": {
     "app": [
       "bundle.js",
-      "app.b75b0effed490d101d8a.hot-update.js"
+      "app.af0b43bf39d7bddfa7ca.hot-update.js"
     ]
   },
   "publicPath": "http://127.0.0.1:8080/",
