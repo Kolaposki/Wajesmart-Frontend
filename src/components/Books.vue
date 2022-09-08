@@ -31,7 +31,16 @@
                     <!--grid-->
 
                     <div class="btn-wrap align-right">
-                        <a href="#" class="btn-accent-arrow">View all books <i class="icon icon-ns-arrow-right"></i></a>
+    
+            <router-link
+               class="btn-accent-arrow"
+              :to="{ name: 'Books' }"
+            >
+             View all books <i class="icon icon-ns-arrow-right"></i>
+            </router-link>
+
+
+                        <!-- <a href="#" class="btn-accent-arrow">View all books <i class="icon icon-ns-arrow-right"></i></a> -->
                     </div>
 
                 </div>

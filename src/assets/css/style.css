@@ -434,7 +434,8 @@ button {
     position: relative;
 }
 
-.pattern-overlay:before {
+
+/* .pattern-overlay:before {
     content: "";
     background: url(../images/pattern1.png) no-repeat;
     position: absolute;
@@ -442,7 +443,7 @@ button {
     right: 227px;
     width: 500px;
     height: 700px;
-}
+} */
 
 .leaf-pattern-overlay {
     position: relative;
