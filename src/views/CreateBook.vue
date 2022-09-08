@@ -43,7 +43,7 @@
       </div>
       <div class="form-field col-lg-12">
         <p style="color: red" v-show="duplicate">
-          This book already esists with another author.
+          This book already exists with another author.
         </p>
 
         <input
