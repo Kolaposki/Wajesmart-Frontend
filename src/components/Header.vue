@@ -23,38 +23,27 @@
                   </li>
                   <li class="menu-item">
                     <router-link class="nav-link" :to="{ name: 'Books' }">
-                      View all books
+                      Books
                     </router-link>
                   </li>
                   <li class="menu-item">
                     <router-link class="nav-link" :to="{ name: 'Authors' }">
-                     Authors
+                      Authors
                     </router-link>
                   </li>
-                     <li class="menu-item">
-                    <router-link class="nav-link" :to="{ name: 'CreateBook' }">
-                     New Book
-                    </router-link>
-                  </li>
-                  
                   <li class="menu-item">
-                    <div class="search-bar">
-                      <a
-                        href="#"
-                        class="search-button search-toggle"
-                        data-selector="#header-wrap"
-                      >
-                        <i class="icon icon-search"></i>
-                        <span>Search</span>
-                      </a>
-                      <form role="search" method="get" class="search-box">
-                        <input
-                          class="search-field text search-input"
-                          placeholder="Search"
-                          type="search"
-                        />
-                      </form>
-                    </div>
+                    <router-link class="nav-link" :to="{ name: 'CreateBook' }">
+                      New Book
+                    </router-link>
+                  </li>
+
+                  <li class="menu-item">
+                    <router-link
+                      class="nav-link"
+                      :to="{ name: 'CreateAuthor' }"
+                    >
+                      New Author
+                    </router-link>
                   </li>
                 </ul>
 

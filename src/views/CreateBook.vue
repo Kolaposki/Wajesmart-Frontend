@@ -39,7 +39,9 @@
             {{ author.full_name }}
           </option>
         </select>
-        <a href="#" class="mt-3">Create Author</a>
+        <router-link class="mt-3" :to="{ name: 'CreateAuthor' }"
+          >Create Author</router-link
+        >
       </div>
       <div class="form-field col-lg-12">
         <p style="color: red" v-show="duplicate">

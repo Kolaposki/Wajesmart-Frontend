@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import NotFound404 from "../views/NotFound404.vue";
 import BookDetail from "../views/BookDetail.vue";
 import CreateBook from "../views/CreateBook.vue";
+import CreateAuthor from "../views/CreateAuthor.vue";
 import AllAuthors from "../views/AllAuthors.vue";
 import UpdateBook from "../views/UpdateBook.vue";
 
@@ -39,6 +40,14 @@ const routes = [{
         component: CreateBook,
         meta: {
             title: "Create Book",
+        },
+    },
+    {
+        path: "/new-author/",
+        name: "CreateAuthor",
+        component: CreateAuthor,
+        meta: {
+            title: "Create Author",
         },
     },
     {
