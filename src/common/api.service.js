@@ -34,7 +34,7 @@ function handleResponse(response) {
 
 function apiService(endpoint, method, data, content_type) {
     // D.R.Y. code to make HTTP requests to the REST API backend using fetch
-
+    endpoint = "https://wajesmart-api.herokuapp.com/api" + endpoint
     const config = {
         method: method || "GET",
         body: data !== undefined ? JSON.stringify(data) : null,

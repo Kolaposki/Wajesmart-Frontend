@@ -3,6 +3,15 @@
 A frontend implementation of Waje Smart Solutions Limited Full-Stack Developer Role Technical 
 Assessment
 
+
+### Netlify
+
+Hosted live on [Netlify](https://wajesmart-client.netlify.app/)
+
+### Backend
+
+[Django Backend](https://github.com/Kolaposki/Wajesmart-Backend)
+
 ## Project setup
 
 ```

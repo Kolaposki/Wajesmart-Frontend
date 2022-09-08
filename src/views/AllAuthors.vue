@@ -22,7 +22,7 @@ export default {
     getAuthors() {
       try {
         // get recent 3 authors
-        let url = "http://127.0.0.1:8000/api/authors/";
+        let url = "/authors/";
         apiService(url).then((data) => {
           if (data == null) {
             return;

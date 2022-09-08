@@ -62,7 +62,7 @@ data() {
     }
 },
  async created() {
-    let endpoint = "http://127.0.0.1:8000/api/books/";
+    let endpoint = "/books/";
 
     apiService(endpoint)
       .then((data) => {

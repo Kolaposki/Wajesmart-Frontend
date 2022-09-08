@@ -60,7 +60,7 @@ export default {
 
   async created() {
     let endpoint =
-      "http://127.0.0.1:8000/api/book/" + this.$route.params.book_id;
+      "/book/" + this.$route.params.book_id;
 
     apiService(endpoint)
       .then((data) => {

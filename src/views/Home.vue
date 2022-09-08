@@ -54,7 +54,7 @@ export default {
     getAuthors() {
       try {
         // get recent 3 authors
-        let url = "http://127.0.0.1:8000/api/authors/?recent=true";
+        let url = "/authors/?recent=true";
         apiService(url).then((data) => {
           if (data == null) {
             return;
@@ -77,7 +77,7 @@ export default {
     getBooks() {
       try {
         // get recent 5 books
-        let url = "http://127.0.0.1:8000/api/books/?recent=true";
+        let url = "/books/?recent=true";
         apiService(url).then((data) => {
           if (data == null) {
             return;

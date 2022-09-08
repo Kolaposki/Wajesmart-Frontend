@@ -75,7 +75,7 @@ export default {
       };
       console.log("Submiting data: ", Data);
 
-      let endpoint = "http://127.0.0.1:8000/api/author/";
+      let endpoint = "/author/";
       apiService(endpoint, "POST", Data)
         .then((data) => {
           console.log("data: ", data);

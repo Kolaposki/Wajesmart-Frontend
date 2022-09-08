@@ -75,7 +75,7 @@ export default {
       };
       console.log("Submiting data: ", Data);
 
-      let endpoint = "http://127.0.0.1:8000/api/author/" + this.$route.params.author_id;
+      let endpoint = "/author/" + this.$route.params.author_id;
 
       apiService(endpoint, "PUT", Data)
         .then((data) => {
@@ -101,7 +101,7 @@ export default {
   
   async created() {
     let endpoint =
-      "http://127.0.0.1:8000/api/author/" + this.$route.params.author_id;
+      "/author/" + this.$route.params.author_id;
 
     apiService(endpoint)
       .then((data) => {

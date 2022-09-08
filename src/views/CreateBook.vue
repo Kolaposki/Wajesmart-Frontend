@@ -97,7 +97,7 @@ export default {
       };
       console.log("Submiting data: ", Data);
 
-      let endpoint = "http://127.0.0.1:8000/api/books/";
+      let endpoint = "/books/";
       apiService(endpoint, "POST", Data)
         .then((data) => {
           console.log("data: ", data);
@@ -123,7 +123,7 @@ export default {
   },
 
   async created() {
-    let endpoint = "http://127.0.0.1:8000/api/authors/";
+    let endpoint = "/authors/";
 
     apiService(endpoint)
       .then((data) => {
