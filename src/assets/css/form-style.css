@@ -24,6 +24,10 @@ input.input-text {
     -webkit-text-fill-color: transparent !important;
 }
 
+.book-form {
+    padding: 10px 20px;
+}
+
 .book-form .form-field {
     position: relative;
     margin: 32px 0;
