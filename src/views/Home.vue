@@ -28,17 +28,19 @@
 
     <Authors :authors="recentAuthors" />
     <Books :books="recentBooks" :isHomeCall=isHomeCall />
+    <Quote />
   </div>
 </template>
 
 <script>
 import Authors from "@/components/Authors";
 import Books from "@/components/Books";
+import Quote from "@/components/Quote";
 import { apiService } from "@/common/api.service.js";
 
 export default {
   name: "Home",
-  components: { Authors, Books},
+  components: { Authors, Books,Quote},
   data() {
     return {
       recentBooks: [],

@@ -2805,16 +2805,36 @@
       "name": "6276fd5ffb5d364de9e4.hot-update.json",
       "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\6276fd5ffb5d364de9e4.hot-update.json",
       "publicPath": "http://127.0.0.1:8080/6276fd5ffb5d364de9e4.hot-update.json"
+    },
+    "app.d4f294a24862e1afade2.hot-update.js": {
+      "name": "app.d4f294a24862e1afade2.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.d4f294a24862e1afade2.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.d4f294a24862e1afade2.hot-update.js"
+    },
+    "d4f294a24862e1afade2.hot-update.json": {
+      "name": "d4f294a24862e1afade2.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\d4f294a24862e1afade2.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/d4f294a24862e1afade2.hot-update.json"
+    },
+    "app.b3d5ec8f26ff59eb2901.hot-update.js": {
+      "name": "app.b3d5ec8f26ff59eb2901.hot-update.js",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\app.b3d5ec8f26ff59eb2901.hot-update.js",
+      "publicPath": "http://127.0.0.1:8080/app.b3d5ec8f26ff59eb2901.hot-update.js"
+    },
+    "b3d5ec8f26ff59eb2901.hot-update.json": {
+      "name": "b3d5ec8f26ff59eb2901.hot-update.json",
+      "path": "C:\\Users\\HP\\Desktop\\wajesmart-frontend\\dist\\b3d5ec8f26ff59eb2901.hot-update.json",
+      "publicPath": "http://127.0.0.1:8080/b3d5ec8f26ff59eb2901.hot-update.json"
     }
   },
   "chunks": {
     "app": [
       "bundle.css",
       "bundle.js",
-      "app.6276fd5ffb5d364de9e4.hot-update.js"
+      "app.b3d5ec8f26ff59eb2901.hot-update.js"
     ]
   },
   "publicPath": "http://127.0.0.1:8080/",
-  "error": "ModuleBuildError",
-  "message": "Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleNotFoundError: Module not found: Error: Can't resolve './assets/css/new-style.css' in 'C:\\Users\\HP\\Desktop\\wajesmart-frontend\\src\\views'\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\webpack\\lib\\Compilation.js:925:10\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\webpack\\lib\\NormalModuleFactory.js:401:22\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\webpack\\lib\\NormalModuleFactory.js:130:21\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\webpack\\lib\\NormalModuleFactory.js:224:22\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\neo-async\\async.js:2830:7\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\neo-async\\async.js:6877:13\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\webpack\\lib\\NormalModuleFactory.js:214:25\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\enhanced-resolve\\lib\\Resolver.js:213:14\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\enhanced-resolve\\lib\\UnsafeCachePlugin.js:44:7\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at C:\\Users\\HP\\Desktop\\wajesmart-frontend\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:67:43"
+  "error": "ModuleError",
+  "message": "Module Error (from ./node_modules/eslint-loader/index.js):\n\nC:\\Users\\HP\\Desktop\\wajesmart-frontend\\src\\views\\Home.vue\n  43:32  error  The \"Quote\" component has been registered but not used  vue/no-unused-components\n\n✖ 1 problem (1 error, 0 warnings)\n"
 }
