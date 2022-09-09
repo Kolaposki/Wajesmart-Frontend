@@ -4,8 +4,7 @@
       <div class="intro">
         <h2 class="text-center">Featured Authors</h2>
         <p class="text-center">
-          Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
-          Vestibulum nibh erat, pellentesque ut laoreet vitae.
+          Here are the most popular authors
         </p>
       </div>
       <div class="row people">
@@ -48,8 +47,6 @@ export default {
 </script>
 
 <style scoped>
-@import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css";
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
 .team-boxed {
   color: #313437;
@@ -123,6 +120,17 @@ export default {
 
 .team-boxed .item img {
   max-width: 160px;
+    border: 1px solid #ff6f3d;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+h3.name > a{
+  color:#ff6f3d !important;
 }
 
 .team-boxed .social {

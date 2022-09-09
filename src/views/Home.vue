@@ -1,53 +1,49 @@
 <template>
   <div>
-    <section id="billboard" class="pattern-overlay">
-      <div class="main-slider">
-        <div class="slider-item">
-          <div class="banner-content">
-            <h2 class="banner-title">Life of the wild</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
-              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
-              ut magna velit eleifend. Amet, quis urna, a eu.
-            </p>
-            <div class="btn-wrap">
-              <a href="#" class="btn-outline-accent btn-accent-arrow"
-                >Read More<i class="icon icon-ns-arrow-right"></i
-              ></a>
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <div class="detail-box">
+              <h1>
+               Life of a bookworm
+              </h1>
+              <p>
+                Get free books and find mates. </p>
+           
             </div>
           </div>
-          <!--banner-content-->
-          <img
-            src="../assets/images/main-banner1.jpg"
-            alt="banner"
-            class="banner-image"
-          />
+            <!-- <div class="col-md-6 col-lg-7">
+                    <div class="img-box">
+                        <img src="../assets/images/post-img3.jpg" alt="">
+                    </div>
+                </div> -->
         </div>
-        <!--slider-item-->
       </div>
+
     </section>
+    <!-- end slider section -->
+
 
     <Authors :authors="recentAuthors" />
-    <Books :books="recentBooks" />
-    <BestSellingBook />
-    <Quote />
+    <Books :books="recentBooks" :isHomeCall=isHomeCall />
   </div>
 </template>
 
 <script>
 import Authors from "@/components/Authors";
 import Books from "@/components/Books";
-import BestSellingBook from "@/components/BestSellingBook";
-import Quote from "@/components/Quote";
 import { apiService } from "@/common/api.service.js";
 
 export default {
   name: "Home",
-  components: { Authors, Books, BestSellingBook, Quote },
+  components: { Authors, Books},
   data() {
     return {
       recentBooks: [],
       recentAuthors: [],
+      isHomeCall: true,
     };
   },
   methods: {
@@ -98,9 +94,6 @@ export default {
       }
     },
   },
-  beforeCreate() {
-    
-  },
   async created() {
     this.getBooks() 
     this.getAuthors() 
@@ -108,5 +101,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.img-box{
+  max-width:50%;
+}
 </style>

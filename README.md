@@ -8,6 +8,7 @@ Assessment
 
 Hosted live on [Netlify](https://wajesmart-client.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a563e3e-e03c-4154-8837-8c0f396ad1e1/deploy-status)](https://app.netlify.com/sites/wajesmart-client/deploys)
 ### Backend
 
 [Django Backend](https://github.com/Kolaposki/Wajesmart-Backend)
